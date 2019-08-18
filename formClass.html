@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<title>
+Form Class 
+</title>
+</head>
+<body>
+<!-- data /information send one place to another place -->
+<form  method="POST">
+<!--   we can send data using two way 
+	1. GET : only 1000 char data send 
+			all data show in address bar
+				url?data=value
+            <form  method="">				
+	2. POST : unlimted data send
+			: data not show any where  
+	Notes: Bydefault data send using get method 		
+			-->
+			
+<p><input type="text" name="useName" placeholder="user name" required /></p>
+<p><input type="number" name="userMobile"/></p>
+<p><input type="email" name="uEmail"/></p>
+<p><input type="password" name="pwd"/></p>
+<p><input type="radio" name="gender" /> Male
+<input type="radio" name="gender"/>Female</p>
+<p><input type="checkbox" name="trm"/>
+<p><textarea name="msg"  rows="10" col="20"> </textarea></p>
+<p><select name="day">
+<option>Day`s</option>
+<option selected>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select></p>
+
+<input type="submit" value="Login"/>
+<button> Click</button>
+</html>
